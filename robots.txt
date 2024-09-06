@@ -1,0 +1,6 @@
+# looking at my robots.txt are you?
+# b2ggc28geW91IGtub3cgYmFzZTY0Pw
+# aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kUXc0dzlXZ1hjUQ
+
+user-agent: *
+Disallow: /
