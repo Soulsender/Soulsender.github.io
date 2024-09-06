@@ -2,14 +2,23 @@
 
 #google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+ - index.md
+ - about.md
+ - contact.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-#style: light # dark (default) or light
+style: cyberpunk # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
   - jekyll-seo-tag
+
+title: /home/soulsender
+email: soul@soulsender.me
+baseurl: "/" # the subpath of your site
+url: "soulsender.me" # the base hostname & protocol for your site
+github_username:  soulsender
+
+font-size: large

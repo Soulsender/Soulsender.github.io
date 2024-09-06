@@ -4,6 +4,15 @@ layout: home
 permalink: /
 ---
 
-# Lorem ipsum
+# /home/soulsender
+Hiya! My name is Soul, I'm a student, hacker, gamer, music producer, video editor, and cyberpunk enthusist :)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I have a couple different certifcations, my most proud one being the CCNA.
+
+Turns out I know what I am doing *sometimes* :3
+
+Be sure to check out my blog below for detailed writeups, or my [github](https://github.com/soulsender) for source code and project material!
+
+<br>
+
+# /usr/share/blog
