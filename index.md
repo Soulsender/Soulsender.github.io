@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-# /home/soulsender
+### /home/soulsender
 Hiya! My name is Soul, I'm a student, hacker, gamer, music producer, video editor, and cyberpunk enthusist :)
 
 I have a couple different certifcations, my most proud one being the CCNA.
@@ -15,4 +15,4 @@ Be sure to check out my blog below for detailed writeups, or my [github](https:/
 
 <br>
 
-# /usr/share/blog
+### /usr/share/blog
