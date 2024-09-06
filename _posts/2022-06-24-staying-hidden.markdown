@@ -93,9 +93,6 @@ VPNs are one of the most generally misinformed pieces of technology security eve
 > 
 > VPNs are very misinformed. They change your virtual location and use the VPN server's IP address. VPN providers will keep logs, and they will give those logs to law enforcement. **They are not initially meant for anonymity and privacy.**
 
-Here is the HTML content converted to Markdown:
-
-```markdown
 ### The Dark Web and Tor
 **It's not dangerous if you're not stupid.**
 
