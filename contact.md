@@ -4,6 +4,8 @@ layout: default
 permalink: /contact
 ---
 
-# Lorem ipsum
+# /contact/opsec
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I take my OpSec (Operational Security) very seriously online. If you are looking to contact me for business reasons, send me an email. I will send you my LinkedIn, phone number, and other personal contact information.
+
+You can find my email at [{{site.email}}](mailto:{{site.email}}).
