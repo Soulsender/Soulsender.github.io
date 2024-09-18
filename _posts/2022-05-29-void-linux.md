@@ -23,3 +23,4 @@ Aside from having a cool name, what is Void used for? Well, it has a couple of q
 
 I decided to go with the base ISO to get the true Minimalist Experience (TM). I had practiced installing and setting up KDE Plasma in a virtual machine, so I knew what I had to do - in theory, anyways. After flashing the ISO to a drive using Rufus (I had some issues with DD on Linux), I booted to the live environment and the welcoming arms of tty1. Void has a nice terminal-gui installer. It runs in a tty, but isn't a real graphical interface.
 
+![](/images/void/after.png)
