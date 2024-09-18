@@ -7,8 +7,6 @@ categories: blog
 
 # Staying Hidden - A Guide to Basic and Advanced Anonymity
 
-**June 24, 2022**
-
 Lots of people do not know how to be hidden online, so I made this simple guide on some easy-to-advanced measures you can take.
 
 I do not support illegal use of this information. That being said, **if you feel unsafe** this information is on my own website under [soulsender.github.io](https://soulsender.github.io) which is not associated with any external websites. Unless you have a compromised Root Certificate, nobody can directly see you are reading this article, they only know you are on my website.
