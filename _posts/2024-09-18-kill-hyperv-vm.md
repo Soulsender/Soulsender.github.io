@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Force Kill a Hyper-V VM"
-date:   2024-08-02
+date:   2024-09-18
 categories: tutorial
 ---
 
