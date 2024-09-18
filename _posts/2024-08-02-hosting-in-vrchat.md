@@ -7,8 +7,6 @@ categories: blog
 
 # Hosting Content in VRChat
 
-**Aug 2, 2024**
-
 VR is fun.
 
 It's a technology that can be more immersive to users and can help bridge the gap between the physical and virtual world. Using it, you can have more immersive experiences with other users than previously possible. What better way to use this tech than to watch something like a movie with your friend?
