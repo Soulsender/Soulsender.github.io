@@ -24,6 +24,23 @@ a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 
+#changeStyleBtn {
+    color: var(--base-color);   
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    font-family: $base-font-family;
+    text-align: right;
+    color: var(--link-color);
+}
+
+#changeStyleBtn:hover {
+    color: var(--background-color); background-color: var(--base-color);
+}
+
 /**
  * Layout
  */
