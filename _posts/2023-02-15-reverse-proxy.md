@@ -25,7 +25,7 @@ Now I sort of lied earlier when I said that a reverse proxy fixes all the proble
 
 In my case, I added my reverse proxy to my Tailscale tailnet and installed the Tailscale client on it. Then I used [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) as the actual reverse proxy software. I did this by renting a very cheap linux cloud VM to get a public IP.
 
-> You need a reminder on what Tailscale is and how I use it, be sure to check out [this post](https://soulsender.me/blog/home-server#tailscale) where I go into much more detail.
+> You need a reminder on what Tailscale is and how I use it, be sure to check out [this post](https://soulsender.me/blog/2022/12/12/home-server.html) where I go into much more detail.
 
 ### Setting Up Nginx
 

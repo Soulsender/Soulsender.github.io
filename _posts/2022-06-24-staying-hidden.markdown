@@ -26,10 +26,9 @@ Don't use this information for evil. I'm doing my best to educate and help peopl
 - [VPNs and Misinformation](#vpns)
 - [The Dark Web (it's not dangerous if you're not stupid) and Tor](#tor)
 - [Circumventing Censorship](#censorship)
-- [Further Resources](#resources)
 
+<h1 id="shit"></h1>
 ### Abbreviations and Shit
-
 I use a lot of technical abbreviations, you can use this quick guide to know what I am talking about. I explain most of these more in detail in their respective sections.
 
 - **Server** - A server is just a computer. It could be in "the cloud" or in someone's house, it doesn't really matter. Usually they do not have ordinary interactive components such as keyboards and monitors, but are controlled remotely.
@@ -46,6 +45,7 @@ I use a lot of technical abbreviations, you can use this quick guide to know wha
 - **HTTPS (HyperText Transfer Protocol Secure)** - What most modern websites use standard. All traffic is encrypted.
 - **HTTP (HyperText Transfer Protocol)** - The old and outdated version of HTTPS. It is NOT encrypted and is not secure or private. Avoid these websites.
 
+<h1 id="signal"></h1>
 ### Signal the Secure Messager App
 
 Unlike WhatsApp, Telegram, Instagram Messenger, iMessage, etc., Signal is an open-source messaging app. This means that the code is available [for anyone to look at](https://github.com/signalapp). It is more secure and more private than other closed-source apps like the ones listed above. It cannot have secret hidden backdoors for the government to be listening in because it is quite literally not written into the code of the app.
@@ -62,6 +62,7 @@ Signal comes with some quirks and features for anonymity. You can set it to [aut
 > 
 > Signal is open-source and is not used to spy on users. It truly does not collect information aside from the last login connection and the date of account creation. Its traffic is secured via E2E encryption.
 
+<h1 id="vpns"></h1>
 ### VPNs and Misinformation
 
 VPNs are one of the most generally misinformed pieces of technology security ever made. Many advertisers such as NordVPN, ExpressVPN, PrivateInternetAccess, etc., straight out lie to their customers, so I will go into the myths and truths of VPNs here. [Tom Scott](https://www.youtube.com/watch?v=WVDQEoe6ZWY) made a very good video about this as well.
@@ -91,6 +92,7 @@ VPNs are one of the most generally misinformed pieces of technology security eve
 > 
 > VPNs are very misinformed. They change your virtual location and use the VPN server's IP address. VPN providers will keep logs, and they will give those logs to law enforcement. **They are not initially meant for anonymity and privacy.**
 
+<h1 id="tor"></h1>
 ### The Dark Web and Tor
 **It's not dangerous if you're not stupid.**
 
@@ -136,6 +138,7 @@ Just like in the VPN section, I will do an overview of Truths and Myths of Tor.
 > ##### TL;DR
 > Tor is pretty much the end-all of online privacy. It uses multiple layers of encryption, in a way where the source and destination are nearly impossible to both locate. It has not been cracked, and any faults are due to the end user and not the protocol.
 
+<h1 id="censorship"></h1>
 ### Circumventing Censorship
 Censorship is when you aren't able to visit a website or use a service because a firewall is blocking you. Perhaps this is because you are at school, and your sysadmins don't want you looking up _questionable_ stuff. Or maybe it's because you live in a dictatorship regime; in which case, somehow, you are reading this. The following methods should work for both.
 
