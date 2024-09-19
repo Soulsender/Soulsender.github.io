@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // change style to be current style
             changeStyle("default");
             // set button text to be next style
-            changeStyleBtn.textContent = "White Theme";
+            changeStyleBtn.textContent = "White Theme (!! FLASHBANG WARNING !!)";
         }
         // loaded toggle loop starts here
         else if (changeStyleBtn.classList.contains("default")) {
