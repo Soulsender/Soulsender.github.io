@@ -26,7 +26,7 @@ This didn't work either, so I tried one more thing. The MAC Address.
 
 ### What is a MAC Address?
 
-MAC stands for Media Access Control address. Every device has a MAC address. A MAC address is used sort of like an IP address, but only on a local area network (LAN). A router on a network delivers traffic to a device with the correct MAC address. This is done through the ARP (Address Resolution Protocol) which you can sort of think of like the DNS for MAC addresses. A MAC address consists of six sets of two numbers or letters, separated by a colon. For example: `9C:6A:BD:07:B7:92` is an address I just made up.
+MAC stands for Media Access Control address. Every device has a MAC address. A MAC address is used sort of like an IP address, but only on a local area network (LAN). Switches on a network deliver traffic to a device with the correct MAC address. This is done through the ARP (Address Resolution Protocol) which you can sort of think of like the DNS for MAC addresses. A MAC address consists of six hex values, seperated by dashes, periods, or colons. For example: `9C:6A:BD:07:B7:92` is an address I just made up.
 
 Unlike IP addresses, MAC addresses are static and do not change (there are some exceptions but for the most part, they stay the same on all networks). A MAC address will have information about the vendor of the device. For instance, you might be able to tell that a device is an Apple or Dell product based on the MAC address.
 
@@ -52,7 +52,7 @@ In the case of my school, the router was seeing me connect my computer with two 
 
 Hm. Well, random MAC addresses didn't work, and my static one was blocked. After this, I tried using MAC addresses from different vendors, such as Apple and Cisco as I hoped the router wouldn't block devices that might be needed for the IT infrastructure, but no bueno. Then I remembered something. Remember that thing earlier how I was talking about how iPhones have a built-in MAC changer thing? I thought about this, and I realized that my phone hadn't been kicked off the network. This meant two things:
 
-1. They only saw my laptop's MAC.
+1. They only cared about my laptop's MAC.
 2. I could steal the MAC address of my phone and use that to get internet, because it was already registered on the network under my user.
 
 After copying and inputting my phone's MAC address into my laptop via:
