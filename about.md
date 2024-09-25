@@ -14,6 +14,8 @@ Turns out I know what I am doing *sometimes* :3
 
 Be sure to check out my [github](https://github.com/soulsender) for projects I've done, or my [blog](index) for some more detailed writeups!
 
+You can also check [notes.soulsender.me](https://notes.soulsender.me) for some less-formal information about various things.
+
 ### /about/linux
 I love to see the inner workings of computers, and I use Linux operating systems on a daily basis. I am comfortable in the terminal, being able to edit firewall permissions, create VPN servers, remotely SSH into said servers, and manage desktop enviroments.
 
