@@ -2,7 +2,7 @@
 layout: post
 title:  "Becoming a Sysadmin"
 date:   2024-01-02
-categories: blog
+categories: server
 ---
 
 ## Behind every digital service is a system admin.

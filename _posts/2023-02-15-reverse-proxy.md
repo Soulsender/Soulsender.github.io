@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Reverse Proxy"
 date:   2023-02-15
-categories: blog
+categories: server
 ---
 
 # Building a Reverse Proxy

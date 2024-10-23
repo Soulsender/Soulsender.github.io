@@ -2,7 +2,7 @@
 layout: post
 title:  "Running a Laptop Home Server"
 date:   2022-12-12
-categories: blog
+categories: server
 ---
 
 ## Old electronics.
