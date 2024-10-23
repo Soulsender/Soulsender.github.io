@@ -6,7 +6,7 @@ categories: server
 ---
 
 # Building a Proxmox Home Server
-> This is an update to my [previous home server build.](/_posts/2022-12-12-home-server.md)
+> This is an update to my [previous home server build.](2022-12-12-home-server.md)
 
 My server has been kinda borked for the last month because I haven't had time to fix it. When I finally did have time, I decided I wanted to try something new. Proxmox!
 
