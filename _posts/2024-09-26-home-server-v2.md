@@ -20,7 +20,7 @@ This means that to use Proxmox, I install it on my bare metal server. So that's 
 ### Post-Install
 The installation for Proxmox is pretty simple, it's not that different from a regular Debian or Ubuntu install. After the install you are prompted to navigate to the web UI. Which looks something like this:
 
-![](../images/home-server-v2/promox.png)
+![](/images/home-server-v2/promox.png)
 
 This is my current dashboard, and as you can see, I have one VM and one LXC container.
 
@@ -44,7 +44,7 @@ Installed on this Debian LXC container is docker containers including a bunch fr
 - [Custom Minecraft Server Query Program](https://github.com/Soulsender/mc-query)
 - [Dashboard](https://gethomepage.dev)
 
-![](../images/home-server-v2/homepage.png)
+![](/images/home-server-v2/homepage.png)
 
 ### Virtual Network Traffic Forwarding
 Instead of port forwarding my home router, I run a reverse proxy in the cloud which sends traffic through a tailscale tunnel to the Proxmox host. Proxmox then forwards that traffic through a virtual network to the Debian LXC container so it can reach the minecraft server. This is done via a couple iptables rules.
