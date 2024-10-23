@@ -6,6 +6,8 @@ categories: server
 ---
 
 # Building a Proxmox Home Server
+> This is an update to my [previous home server build.](/_posts/2022-12-12-home-server.md)
+
 My server has been kinda borked for the last month because I haven't had time to fix it. When I finally did have time, I decided I wanted to try something new. Proxmox!
 
 ### What is Proxmox
@@ -36,7 +38,7 @@ In addition to TrueNAS, I wanted something to run all of my docker services on. 
 
 LXC is a kind of Linux container that shares the same kernel as the hypervisor, but everything else is virtualized. This gives it much better performance compared to a traditional VM. In my case, Debian is the OS running in the LXC container. 
 
-Installed on this Debian LXC container is docker containers including a bunch from my [previous home server build](./2022-12-12-home-server.md). At the moment, this includes:
+Installed on this Debian LXC container is docker containers including a bunch from my [previous home server build](/_posts/2022-12-12-home-server.md). At the moment, this includes:
 
 - Minecraft Server 1
 - Minecraft Server 2
