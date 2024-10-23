@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "My New Proxmox Home Server"
+title:  "Building a Proxmox Home Server"
 date:   2024-10-23
 categories: server
 ---
 
-# My New Proxmox Home Server
+# Building a Proxmox Home Server
 My server has been kinda borked for the last month because I haven't had time to fix it. When I finally did have time, I decided I wanted to try something new. Proxmox!
 
 ### What is Proxmox
