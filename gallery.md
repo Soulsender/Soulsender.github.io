@@ -1,5 +1,5 @@
 ---
-title: /gallery
+title: gallery
 layout: default
 permalink: /gallery
 ---
