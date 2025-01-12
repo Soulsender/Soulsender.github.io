@@ -3,6 +3,7 @@ title: home
 layout: home
 permalink: /
 ---
+![](/images/welcome.png)
 
 ### /home/soulsender
 Hiya! My name is Soul, I'm a student, hacker, gamer, music producer, video editor, 3d modeller and cyberpunk enthusist :)
