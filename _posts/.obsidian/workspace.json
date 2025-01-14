@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "81cc3a7e2373b9e9",
+    "id": "5d0dbddad62cb704",
     "type": "split",
     "children": [
       {
-        "id": "96477a0a63710c8c",
+        "id": "677e0b753d6166e1",
         "type": "tabs",
         "children": [
           {
-            "id": "84b9694ca762f904",
+            "id": "6190c8a39f35a3e2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b1b8d44644e0bc07",
+    "id": "cfd82619a1ccea0f",
     "type": "split",
     "children": [
       {
-        "id": "49dddade09d3a0af",
+        "id": "20567aa8c36121d0",
         "type": "tabs",
         "children": [
           {
-            "id": "7cff6b15a3f0a196",
+            "id": "841df416a9191547",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "1e8f5630617bee1d",
+            "id": "450df630a507d843",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +60,7 @@
             }
           },
           {
-            "id": "b45b864a881a8a5e",
+            "id": "b836109641784de6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,20 +76,19 @@
     "width": 300
   },
   "right": {
-    "id": "2b45dc8836eed899",
+    "id": "c4a102fc807c322e",
     "type": "split",
     "children": [
       {
-        "id": "8410cada288117f2",
+        "id": "6a9dbc88fde60320",
         "type": "tabs",
         "children": [
           {
-            "id": "c3f9da3e98471789",
+            "id": "8cf441f2a2e41760",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "f2146e94284bf30d",
+            "id": "c409fc9ad660d11e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from conflict-files-obsidian-git"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "62ee862c348f9e94",
+            "id": "56d54208275ec9cc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,43 +128,16 @@
             }
           },
           {
-            "id": "73be0ee006c8302c",
+            "id": "c357d119aba5e6e6",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "deee7027238a21fe",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "b923dc13f68cc792",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,63 +151,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "84b9694ca762f904",
-  "lastOpenFiles": [
-    "Cloud/AWS/Networking.md",
-    "Windows/Active Directory/Operations Master.md",
-    "Cloud/AWS",
-    "Programming/Rust/Syntax/Traits.md",
-    "Programming/Rust/Syntax/Impl.md",
-    "Programming/Rust/Syntax/Generic Types.md",
-    "Networking/Essentials (NetAcad)/Subnetting/Subnetting.md",
-    "Networking/Essentials (NetAcad)/Subnetting/Subnet Sheet.md",
-    "Networking/Essentials (NetAcad)/Subnetting",
-    "Networking/Wireless/Security/802.1x EAP.md",
-    "().md",
-    "Windows/Active Directory/Hyperconverged Infrastructure (HCI)/Storage Spaces Direct.md",
-    "Windows/Active Directory/Hyperconverged Infrastructure (HCI)/HCI & Cluster Shared Volumes (CSV).md",
-    "Windows/Active Directory/Hyperconverged Infrastructure (HCI)/Failover Clustering.md",
-    "Windows/Active Directory/Hyperconverged Infrastructure (HCI)",
-    "Windows/Active Directory/High Availability & Clustering/iSCSI Target Server.md",
-    "Windows/Active Directory/High Availability & Clustering/Storage Replica.md",
-    "Windows/Active Directory/High Availability & Clustering/Hyper-V Live Migration.md",
-    "Windows/Active Directory/High Availability & Clustering/Cluster-Aware Updating.md",
-    "Windows/Active Directory/High Availability & Clustering",
-    "Windows/Active Directory/Exchange/Email Services.md",
-    "Windows/Active Directory/Deploying Machines/Windows Deployment Services (WDS).md",
-    "Windows/Active Directory/Deploying Machines/Microsoft Deployment Toolkit (MDT).md",
-    "Windows/Active Directory/Deploying Machines",
-    "Programming/Rust/Weird Rust Stuff/Slices.md",
-    "Programming/Rust/Weird Rust Stuff/References.md",
-    "Programming/Rust/Weird Rust Stuff/Ownership.md",
-    "Programming/Rust/Examples/Iterate Through Loop.md",
-    "Networking/Wireless/Security/WiFi Types.md",
-    "Networking/Wireless/Security/Rogue Access Points.md",
-    "Networking/Wireless/Security/Security.md",
-    "Networking/Wireless/Security",
-    "Programming/Rust/Examples/Guessing.rs",
-    "Programming/Rust/Weird Rust Stuff",
-    "Programming/Rust/Syntax",
-    "Programming/Rust/Examples",
-    "_attachments/Pasted image 20241204162624.png",
-    "_attachments/Pasted image 20241204141240.png",
-    "_attachments/Pasted image 20241204135201.png",
-    "_attachments/Pasted image 20241204134727.png",
-    "Networking/Switching/Spanning-Tree/Spanning Tree.canvas",
-    "_attachments/Pasted image 20241125112255.png",
-    "Networking/Routing/Routing Protocols/OSPF/OSPF.canvas",
-    "Networking/Switching/VLANs & DTP/VLANs.canvas",
-    "Security/Edge Router Approaches.canvas",
-    "_attachments/Pasted image 20241017093626.png",
-    "_attachments/Pasted image 20241017093544.png",
-    "_attachments/Pasted image 20241017093527.png",
-    "_attachments/Pasted image 20241012153400.png",
-    "_attachments/Pasted image 20241012150353.png",
-    "Networking/Routing/Protocols/OSPF/Untitled.canvas",
-    "Untitled.canvas"
-  ]
+  "active": "6190c8a39f35a3e2",
+  "lastOpenFiles": []
 }
