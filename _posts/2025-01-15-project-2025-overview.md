@@ -41,6 +41,8 @@ JD Vance, the soon-to-be vice president, aligns with many of the things I've tal
 
 Vance also has "support for gun rights, opposition to abortion, same-sex marriage, and American military aid to Ukraine. Vance is an outspoken critic of childlessness and has acknowledged Catholic theology's influence on his sociopolitical positions." [4]
 
+On other governmental positions Trump has chosen:
+
 > "[Russell Vought] is involved with Project 2025, a Heritage Foundation-led plan that seeks to reshape the federal government. Vought was named policy director of the Republican National Committee platform committee in May 2024.
 In November 2024, president-elect Trump announced that he would renominate Vought as director of the OMB for his second term as president." [5]
 
