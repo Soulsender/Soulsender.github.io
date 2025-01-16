@@ -12,7 +12,17 @@ I myself am bisexual, in an active gay relationship, and a member of the hacker 
 
 I am also Canadian, and you can probably guess how I felt when my country and my people were disrespected and disregarded as "America's 51st state," despite our sovereignty and independance from the USA.
 
-Dispite this, and my own personal beliefs, I believe in true free speech, and it is my duty as a hacker to promote this.
+Despite this, and what I personally believe, I believe in true free speech, and it is my duty as a hacker to promote free speech. On the internet it is increasing hard to find reliable sources of information, something I acknowledge.
+
+Due to this, I've chosen to use sources like wikipedia, it is: 
+- Community focused (as in, no one person wrote it all)
+- Is supported by non-profit organizations.
+- Has very open licensing for information
+- Lists its sources
+- Is comphrensive
+- Has historical tracking of edits related to time of real-world events
+
+I have also chosen to take direct exerts from the source material in some cases, in this case, the offical [Project 2025 Playbook](https://static.project2025.org/2025_MandateForLeadership_FULL.pdf).
 
 ### What is Project 2025
 **[If you wish to read the original plan, you can download it here.](https://static.project2025.org/2025_MandateForLeadership_FULL.pdf)**
