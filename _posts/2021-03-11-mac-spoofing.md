@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "CDN with SSL and S3 Buckets"
-date:   2025-01-31
+title:  "Mac Spoofing my School"
+date:   2021-03-11
 categories: blog
 ---
 
