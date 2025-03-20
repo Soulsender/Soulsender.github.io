@@ -18,7 +18,10 @@ easyrsa build-client-full client.vpn nopass
 ### Step 2: Import Certificates
 Import the server certificate public and private keys, and the `ca.crt` certificate chain because this is self signed into ACM.
 ```
-aws acm import-certificate --certificate file:///tmp/aws-vpn/server.com.crt --private-key file:///tmp/aws-vpn/server.com.key --certificate-chain file:///tmp/aws-vpn/ca.crt
+aws acm import-certificate \
+    --certificate file:///tmp/aws-vpn/server.com.crt \
+    --private-key file:///tmp/aws-vpn/server.com.key \
+    --certificate-chain file:///tmp/aws-vpn/ca.crt
 ```
 
 ### Step 3: Create Endpoint
