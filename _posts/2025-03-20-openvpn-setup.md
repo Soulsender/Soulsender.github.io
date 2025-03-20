@@ -17,13 +17,36 @@ easyrsa build-client-full client.vpn nopass
 
 ### Step 2: Import Certificates
 Import the server certificate public and private keys, and the `ca.crt` certificate chain because this is self signed into ACM.
+```
+aws acm import-certificate --certificate file:///tmp/aws-vpn/server.com.crt --private-key file:///tmp/aws-vpn/server.com.key --certificate-chain file:///tmp/aws-vpn/ca.crt
+```
 
 ### Step 3: Create Endpoint
 We use the server certificate for both the server and client cert for the endpoint because it is self signed.
 
-Once the endpoint is created, associate it to the subnet you want.
+Once the endpoint is created, associate it to the subnet you want, and allow clients to reach the subnet.
 
 I used TCP 443 for mine.
+
+> You can use either the CLI or the web GUI for these steps.
+
+```
+export RCS_VPCID={YOUR TARGET VPC}
+export SERVER_DOMAIN=server.com
+
+aws ec2 create-client-vpn-endpoint \
+    --client-cidr-block "10.255.0.0/22" \
+    --server-certificate-arn $(aws acm list-certificates --query 'CertificateSummaryList[?DomainName==`'$SERVER_DOMAIN'`].CertificateArn' --output text) \
+
+aws ec2 associate-client-vpn-target-network \
+    --client-vpn-endpoint-id $(aws ec2 describe-client-vpn-endpoints --query 'ClientVpnEndpoints[0].ClientVpnEndpointId' --output text) \
+    --subnet-id $(aws ec2 describe-subnets --query 'Subnets[?VpcId==`'$RCS_VPCID'` && Tags[?Value==`public`]].SubnetId | [0]' --output text)
+
+aws ec2 authorize-client-vpn-ingress \
+    --client-vpn-endpoint-id $(aws ec2 describe-client-vpn-endpoints --query 'ClientVpnEndpoints[0].ClientVpnEndpointId' --output text) \
+    --target-network-cidr "10.0.0.0/16" \
+    --authorize-all-groups
+```
 
 ### Step 4: Create Client Configuration
 Download the client configuration from the endpoint. You must add the client private and public certificate keys.
