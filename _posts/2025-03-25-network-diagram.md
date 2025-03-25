@@ -14,7 +14,7 @@ This is something I get asked about the most, why do I proxy all my public inter
 1. It masks my public IP. Though it's not a "security risk" per-say, it does expose the general area where I live, so I do this for opsec reasons.
 2. It gives me more control than using something like CloudFlare tunnels (I couldn't figure out how to get it working with SSL lol.)
 3. It gives me a public IP I can proxy to whatever I want (as opposed to paying for a public IP at home, or using dynamic DNS.)
-
+<br>
 Basically there is only one rule, and that's to proxy traffic inbound to the `server` subdomain on port 25565 to the minecraft server through tailscale. If I have another minecraft server running I would replicate the same rule with `25566` instead.
 
 Traffic inbound from the `notes` subdomain goes to nginx running [Perlite](https://github.com/secure-77/Perlite) to expose my obsidian notes.
