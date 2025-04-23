@@ -18,9 +18,11 @@ This is something I get asked about the most, why do I proxy all my public inter
 Basically there is only one rule, and that's to proxy traffic inbound to the `server` subdomain on port 25565 to the minecraft server through tailscale. If I have another minecraft server running I would replicate the same rule with `25566` instead.
 
 Traffic inbound from the `notes` subdomain goes to nginx running [Perlite](https://github.com/secure-77/Perlite) to expose my obsidian notes.
+[See the writeup here.](https://soulsender.me/server/2023/02/15/reverse-proxy.html)
 
 ### Promox
 I only have one actual server at home. This is a proxmox server and virtualizes both TrueNAS Scale and a Debian LXC container that hosts my docker containers. 
+[See the writeup here.](https://soulsender.me/server/2024/10/23/home-server-v2.html)
 
 ### Docker
 All my services are hosted through docker because it's easier to manage and keep secure.
