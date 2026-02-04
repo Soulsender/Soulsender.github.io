@@ -33,7 +33,56 @@ Setting up Nginx is actually very easy. All you need to do is create a configura
 
 Make sure that the Nginx daemon is enabled on startup and is running, and then you can generate an SSL certificate to get HTTPS on that subdomain using certbot. Make sure you add an A Record to your DNS settings that sets "subdomain" to the IP of your reverse proxy server.
 
+The nginx configuration:
+```
+server {
+
+	listen 80;
+       	server_name server.soulsender.me;
+	return 301 https://soulsender.me;
+}
+```
+
+To get an SSL certificate:
 ```bash
 sudo apt install certbot python3-certbot-nginx
-sudo certbot --nginx -d subdomain.soulsender.me
+sudo certbot --nginx -d server.soulsender.me
 ```
+
+### VPN
+You need to establish a VPN tunnel to the server you wan to access with the reverse proxy. There are a couple different ways of doing this, but I recommend Tailscale or Wireguard.
+
+### Port Forwarding Using iptables
+
+```bash
+#!/bin/bash
+
+HOST="11.22.33.44"
+PORT="25565"
+INTERFACE="eth0"
+
+# (optional) clear ALL rules in ALL tables
+sudo iptables -F
+sudo iptables -X
+sudo iptables -t nat -F
+sudo iptables -t nat -X
+sudo iptables -t mangle -F
+sudo iptables -t mangle -X
+sudo iptables -t raw -F
+sudo iptables -t raw -X
+
+# (optional) reset default policies
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+
+# Port 25565 forwarding
+sudo iptables -t nat -A PREROUTING -i $INTERFACE -p tcp --dport $PORT -j DNAT --to-destination $HOST:$PORT
+sudo iptables -A FORWARD -p tcp -d $HOST --dport $PORT -j ACCEPT
+sudo iptables -t nat -A POSTROUTING -p tcp --dport $PORT -j MASQUERADE
+
+# Save
+sudo netfilter-persistent save
+```
+
+> If you're using a cloud VPS provider like AWS, make sure you allow the port through the dashboard firewall! 
