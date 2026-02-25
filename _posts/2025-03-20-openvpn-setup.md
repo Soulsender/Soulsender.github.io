@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up Self-Signed OpenVPN With AWS"
+title:  "Self-Signed OpenVPN With AWS"
 date:   2025-03-20
 categories: blog
 ---
