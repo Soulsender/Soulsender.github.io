@@ -36,11 +36,20 @@ Make sure that the Nginx daemon is enabled on startup and is running, and then y
 The nginx configuration:
 ```
 server {
+    server_name server.soulsender.me;
 
-	listen 80;
-       	server_name server.soulsender.me;
-	return 301 https://soulsender.me;
-}
+    location / {
+        proxy_pass http://11.22.33.44:4444;  # your backend app
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+```
+Link it:
+```bash
+ln -s /etc/nginx/sites-available/server.soulsender.me /etc/nginx/sites-enabled/server.soulsender.me
 ```
 
 To get an SSL certificate:
@@ -48,6 +57,8 @@ To get an SSL certificate:
 sudo apt install certbot python3-certbot-nginx
 sudo certbot --nginx -d server.soulsender.me
 ```
+
+Keep in mind this will redirect HTTP & HTTPS traffic only. If you want to forward *all* traffic (like a minecraft server) then proceed.
 
 ### VPN
 You need to establish a VPN tunnel to the server you wan to access with the reverse proxy. There are a couple different ways of doing this, but I recommend Tailscale or Wireguard.
