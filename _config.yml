@@ -16,10 +16,10 @@ style: cyberpunk # dark (default) or light
 plugins:
   - jekyll-seo-tag
 
-title: /home/snows
+title: /home/snow
 email: snow@snowsynth.net
 baseurl: "/" # the subpath of your site
-url: "snowsynth.net" # the base hostname & protocol for your site
+url: "https://snowsynth.net" # the base hostname & protocol for your site
 github_username:  Soulsender
 email: snow@snowsynth.net
 favicon: favicon.ico
