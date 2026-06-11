@@ -8,10 +8,17 @@
         <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
         {%- endif -%}
       {%- endfor -%}
-      <li><a href="https://docs.snowsynth.net">notes</a></li>
+      <li><a href="https://docs.snowsynth.net">docs</a></li>
       <li><a href="https://github.com/Soulsender">github</a></li>
       <!-- <li><a href="https://status.soulsender.me/status/mc-friends">server_status</a></li> -->
       <button id="changeStyleBtn">Dark Theme</button>
+      
+      <div id="console">
+      </div>
+      <script src="/console.js"></script>
+
+      
+
     </ul>
   </div>
 </header>

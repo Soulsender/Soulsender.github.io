@@ -24,6 +24,21 @@ a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 
+#console {
+  font-family: monospace;
+  color: #00ffcc;
+  background: black;
+  padding: 10px;
+
+  height: 7em;
+  overflow: hidden;
+}
+
+#console p {
+  margin: 0;
+  line-height: 1.5em;
+}
+
 #changeStyleBtn {
     color: var(--base-color);   
     background-color: transparent;
