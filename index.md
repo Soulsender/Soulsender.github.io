@@ -14,4 +14,4 @@ Here's my website, where you can find my writing, notes, and other information.
 
 For notes you can take a look at [docs.snowsynth.net](docs.snowsynth.net)
 
-### /usr/share/blog
+### /usr/share/writing

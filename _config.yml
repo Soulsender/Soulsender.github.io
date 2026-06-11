@@ -4,8 +4,8 @@
 
 header_pages:
  - index.md
- - about.md
- - contact.md
+#  - about.md
+#  - contact.md
 #  - gallery.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
