@@ -2,7 +2,7 @@
 layout: post
 title:  "A Fox in the Shop"
 date:   2026-06-10
-categories: writing
+tags: writing
 ---
 
 # A Fox in the Shop

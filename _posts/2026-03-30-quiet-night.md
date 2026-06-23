@@ -2,7 +2,7 @@
 layout: post
 title:  "A Quiet Night (Intro)"
 date:   2026-03-30
-categories: writing
+tags: writing
 ---
 
 # A Quiet Night (Intro)

@@ -2,7 +2,7 @@
 layout: post
 title:  "The First Gig"
 date:   2026-06-23
-categories: writing
+tags: writing
 ---
 
 > This is a series. [See the previous story here.](https://snowsynth.net/writing/2026/06/10/fox-in-the-shop)
